@@ -1,22 +1,20 @@
 
 
-// $(document).ready(function(){
-
-    
-//     $("button").click (function() {
-//         displaySecretText()
-      
-//     });
-//   });
 
 
 $(document).ready(function(){
 
-    $("#text").css( function() {
-        
-      });
-
-	
+    
+  $("button").click (function() {
+    $("p").css("display","block");
+    
+  });
 });
+
+
+
+
+
+
 
 
