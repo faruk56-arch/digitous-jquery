@@ -23,14 +23,15 @@ $("input").keyup(function () {
 
     if ($("input").val().length >= 5) {
 
+        $("input").removeClass("is-invalid");
         $("input").addClass("is-valid");
-        // $("input").addClass("is-valid");
-        console.log("is-valid");
+        
 
     }  else  {
         $("input").addClass("is-invalid");
 
-        console.log("is-invalid");
+
+        // console.log("is-invalid");
     } 
 
 });
