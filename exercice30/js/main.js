@@ -31,7 +31,6 @@ $("input").keyup(function () {
         $("input").addClass("is-invalid");
 
 
-        // console.log("is-invalid");
     } 
 
 });
